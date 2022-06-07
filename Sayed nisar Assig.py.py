@@ -28,6 +28,35 @@ def pyramid():
     
     
 pyramid()    
-pyramid() 
+pyramid()  
+
+
+
+
+
+
+def add(x):
+    def ad(y):
+        return x + y
+ 
+    return ad
+ 
+add_15 = add(15)
+ 
+print("The result is", add_15(10))
+ 
+# Returning different function
+def outer(x):
+    return x * 10
+ 
+def myfunc():
+     
+    # returning different function
+    return outer
+ 
+
+res = myfunc()
+ 
+print("\nThe result is:", res(10))
 
 
