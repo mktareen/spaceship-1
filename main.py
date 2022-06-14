@@ -1,8 +1,8 @@
 import os
 
-Shutdown = input("Do You Wish to shutdown, Your PC")
+Sh = input("Do You Wish to sh, Your PC")
 
-if Shutdown == 'nO':
+if Sh == 'nO':
     exit()
 else:
     os.system("init 0")
